@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>1983 TOYOTA Sprinter Trueno 1600GT APEX | Gran Turismo</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <div class="container">
+                <div class="navbar" >
+                    <a href="index.html">
+                    <div class="logo">
+                        <img src="images/logo.png" width="125px">
+                    </div>
+                    </a>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html" style="color: white;">HOME</a></li>
+                            <li><a href="products.html" style="color: white;">MODELS</a></li>
+                            <li><a href="about-us.html" style="color: white;">ABOUT US</a></li>
+                            <li><a href="account.html" style="color: white;">ACCOUNT</a></li>
+                        </ul>
+                    </nav>
+                    <img src="images/cart.png" width="30px" height="30px">
+                </div>
+            </div>
+        </div>
+        <!--product details-->
+        <div class="header2">
+            <div class="single-product">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="images/cars/ae86-1.jpg" width="100%" id="ProductImg">
+                        <div class="small-img-row">
+                            <div class="small-img-col">
+                                <img src="images/cars/ae86-1.jpg" width="100%" class="small-img">
+                            </div>
+                            <div class="small-img-col">
+                                <img src="images/cars/ae86-2.jpg" width="100%" class="small-img">
+                            </div>
+                            <div class="small-img-col">
+                                <img src="images/cars/ae86-3.jpg" width="100%" class="small-img">
+                            </div>
+                            <div class="small-img-col">
+                                <img src="images/cars/ae86-4.jpg" width="100%" class="small-img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <h1>1983 TOYOTA Sprinter Trueno 1600GT APEX</h1>
+                        <h2>PRICE Cr.90,000</h2>
+                        <a href="" class="btn">ADD TO CART</a>
+                        <h2>Specs</h2>
+                        <h3>Engine</h3>
+                        <p>1.6 L 4A-GE I4</p>
+                        <p>190 BHP</p>
+                        <p>Naturally-Aspirated</p>
+                        <h3>Drivetrain</h3>
+                        <p>Front-Engine Rear-Wheel Drive</p>
+                        <p>5-speed manual transmission</p>
+                        <h3>Dimensions</h3>
+                        <p>Length 4205 mm</p>
+                        <p>Width 1675 mm</p>
+                        <p>Height 1275 mm</p>
+                        <p>Weight 825 kg</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--footer-->
+        <div class="footer">
+            <div class="row">
+                <div class="brands">
+                    <div class="small-container">
+                        <div class="row">
+                            <div class="col-5">
+                                <img src="images/brands/toyota.png">
+                            </div>
+                            <div class="col-5">
+                                <img src="images/brands/honda.png">
+                            </div>
+                            <div class="col-5">
+                                <img src="images/brands/mazda.png">
+                            </div>
+                            <div class="col-5">
+                                <img src="images/brands/nissan.png">
+                            </div>
+                            <div class="col-5">
+                                <img src="images/brands/mitsubishi.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-col-3">
+                    <h2>Our Socials</h2>
+                    <ul>
+                        <li>Twitter</li>
+                        <li>Facebook</li>
+                        <li>Youtube</li>
+                        <li>Instagram</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--js for gallery-->
+        <script>
+            var ProductImg = document.getElementById("ProductImg");
+            var SmallImg = document.getElementsByClassName("small-img");
+
+            SmallImg[0].onclick = function()
+            {
+                ProductImg.src = SmallImg[0].src;
+            }
+            SmallImg[1].onclick = function()
+            {
+                ProductImg.src = SmallImg[1].src;
+            }
+            SmallImg[2].onclick = function()
+            {
+                ProductImg.src = SmallImg[2].src;
+            }
+            SmallImg[3].onclick = function()
+            {
+                ProductImg.src = SmallImg[3].src;
+            }
+        </script>
+    </body>
+</html>

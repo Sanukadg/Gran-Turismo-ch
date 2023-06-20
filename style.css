@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 11px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+p{
+    color: #555;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.row2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+    padding-bottom: 80px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding-bottom: 20px;
+}
+.col-2 h1{
+    margin-top: 50px;
+    font-size: 60px;
+}
+.col-2 h2{
+    font-size: 30px;
+}
+.btn{
+    display: inline-block;
+    background: rgb(190, 0, 0);
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.2s;
+}
+.btn:hover{
+    background: rgb(56, 0, 0);
+}
+.header{
+    background: rgb(83, 42, 42);
+    background-image: url("images/maincivic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+.header .row{
+    margin-top: 50px;
+}
+.header2{
+    background: radial-gradient(white,grey);
+}
+.cars{
+    background: radial-gradient(white,grey);
+    padding-bottom: 40px;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.col-4{
+    flex-basis: 25%;
+    padding: 30px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    margin: auto;
+    line-height: 30px;
+    transition:  transform 0.5s;
+}
+.col-4 img{
+    width: 100%;
+    cursor: pointer;
+}
+.col-4 p, h4{
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+.col-4:hover{
+    transform: translateY(-10px);
+}
+.title{
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    line-height: 60px;
+    color: #272727;
+    font-size: 40px;
+}
+/*--brands--*/
+.brands{
+    margin: 50px auto;
+}
+.col-5{
+    width: 157px;
+}
+.col-5 img{
+    width: 50%;
+    cursor: pointer;
+}
+.footer{
+    background: #111111;
+    color: #8a8a8a;
+    font-size: 15px;
+    padding-right: 300px;
+}
+.footer h2{
+    color:#fff;
+    margin-bottom: 20px;
+}
+/*single product*/
+.single-product{
+    padding-top: 50px;
+    margin-left: 86px;
+    margin-right: 86px;
+    padding-bottom: 50px;
+}
+.single-product .col-2{
+    padding: 20px;
+}
+.single-product h4{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+.small-img-row{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+.tagline{
+    padding-bottom: 70px;
+}
+.tagline h1{
+    font-size: 98px;
+    line-height: 120px;
+    padding-bottom: 50px;
+}
+.tagline p{
+    font-size: 17px;
+}
+/*account*/
+.account-bg{
+    background: rgb(94, 47, 47);
+    background-image: url("images/gtsport2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+.container2{
+    margin: auto;
+    margin-left: 200px;
+    padding-top: 100px;
+    padding-bottom: 240px;
+    max-width: 500px;
+    width: 100%;
+}
+.container2 .registration{
+  display: none;
+}
+#check:checked ~ .registration{
+  display: block;
+}
+#check:checked ~ .login{
+  display: none;
+}
+#check{
+  display: none;
+}
+.container2 .form{
+  padding: 2rem;
+}
+.form header{
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+ .form input{
+   height: 60px;
+   width: 100%;
+   padding: 0 15px;
+   font-size: 17px;
+   margin-bottom: 1.3rem;
+ }
+ .form input:focus{
+   box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+ }
+.form a{
+  font-size: 16px;
+  color: #ff0000;
+  text-decoration: none;
+}
+.form a:hover{
+  text-decoration: underline;
+}
+.form input.button{
+  color: #fff;
+  background: #ca0000;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 1.7rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.form input.button:hover{
+  background: #5a0000;
+}
+.signup{
+  font-size: 17px;
+  text-align: center;
+}
+.signup label{
+  color: #ff0000;
+  cursor: pointer;
+}
+.signup label:hover{
+  text-decoration: underline;
+}
+.login form header{
+  color: #555;
+}
+.about-us{
+  padding: 100px;
+  text-align: center;
+}
+.about-us h1{
+  font-size: 40px;
+  color: #fff;
+  padding-bottom: 50px;
+}
+.about-us p{
+  margin: auto;
+  font-size: 25px;
+  color: #fff;
+  max-width: 40%;
+  padding-bottom: 200px;
+}
+.about-bg{
+  background: rgb(78, 39, 39);
+  background-image: url("images/240z.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
