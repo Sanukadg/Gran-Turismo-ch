@@ -22,7 +22,7 @@
                             <li><a href="index.html" style="color: white;">HOME</a></li>
                             <li><a href="products.html" style="color: white;">MODELS</a></li>
                             <li><a href="about-us.html" style="color: white;">ABOUT US</a></li>
-                            <li><a href="account.html" style="color: white;">ACCOUNT</a></li>
+                            <li><a href="account.php" style="color: white;">ACCOUNT</a></li>
                         </ul>
                     </nav>
                     <img src="images/cart.png" width="30px" height="30px">
@@ -49,11 +49,20 @@
                 </div>
                 <div class="registration form">
                   <header style="color: white;">SIGN UP</header>
-                  <form action="#">
-                    <input type="text" placeholder="Enter your email">
-                    <input type="password" placeholder="Create a password">
-                    <input type="password" placeholder="Confirm your password">
-                    <input type="button" class="button" value="Signup">
+                  <form action="connect.php" method="POST">
+                    <p>
+                    <label style="color: rgb(172, 172, 172);" for="email">Enter your email </label>
+                    <input type="text" name="email" id="email">
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    <label style="color: rgb(172, 172, 172);" for="password">Enter your password</label>
+                    <input type="password" name="password" id="password">
+                    </p>
+                    <p>
+                    <input type="submit" class="button" name="submit" id="submit" value="Sign Up">
+                    </p>
                   </form>
                   <div class="signup">
                     <span style="color: white;" class="signup">Already have an account?

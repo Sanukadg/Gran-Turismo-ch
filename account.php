@@ -1,8 +1,9 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>About Us | Gran Turismo</title>
+        <title>Account | Gran Turismo</title>
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,15 +31,56 @@
             </div>
         </div>
         <!--account-->
-        <div class="about-bg">
-            <div class="about-us">
-                <h1>ABOUT US</h1>
-                <p>To make the unattainable, attainable. We specialize in collecting and restoring used cars from any era to be still enjoyed in the present
-                    <br>
-                    <br>
-                    <br>Our goal is to preserve automotive culture by appreciating them
-                </p>
-            </div>
+        <div class="account-bg">
+            <div class="container2">
+                <input type="checkbox" id="check">
+                <div class="login form">
+                  <header style="color: white;">LOGIN</header>
+                  <form action="login.php" method="POST">
+                    <p>
+                    <label style="color: rgb(172, 172, 172);" for="email">Enter your email </label>
+                    <input type="text" name="email" id="email">
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    <label style="color: rgb(172, 172, 172);" for="password">Enter your password</label>
+                    <input type="password" name="password" id="password">
+                    </p>
+                    <p>
+                    <input type="submit" class="button" name="login" value="Login">
+                    </p>
+                  </form>
+                  <div class="signup">
+                    <span style="color: white;" class="signup">Don't have an account?
+                     <label for="check">Sign up</label>
+                    </span>
+                  </div>
+                </div>
+                <div class="registration form">
+                  <header style="color: white;">SIGN UP</header>
+                  <form action="connect.php" method="POST">
+                    <p>
+                    <label style="color: rgb(172, 172, 172);" for="email">Enter your email </label>
+                    <input type="text" name="email" id="email">
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    <label style="color: rgb(172, 172, 172);" for="password">Enter your password</label>
+                    <input type="password" name="password" id="password">
+                    </p>
+                    <p>
+                    <input type="submit" class="button" name="submit" id="submit" value="Sign Up">
+                    </p>
+                  </form>
+                  <div class="signup">
+                    <span style="color: white;" class="signup">Already have an account?
+                     <label for="check">Login</label>
+                    </span>
+                  </div>
+                </div>
+              </div>
         </div>
         <!--footer-->
         <div class="footer">
