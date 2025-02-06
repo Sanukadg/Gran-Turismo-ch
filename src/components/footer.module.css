@@ -1,0 +1,21 @@
+.footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+}
+
+.brands {
+    display: flex;
+    align-items: center;
+    gap: 65px;
+}
+.brand_logo img {
+    max-width: 100px;
+}
+
+.footer_socials {
+    color: whitesmoke;
+}

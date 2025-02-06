@@ -1,0 +1,65 @@
+.models {
+    background: radial-gradient(white, grey);
+    padding: 40px;
+    min-height: 100vh;
+}
+
+.models h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 2.5rem;
+    color: #272727;
+    font-size: 40px;
+}
+
+.model {
+    max-width: 400px;
+    transition: 0.45s;
+}
+
+.model:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
+.price {
+    font-size: 1.5rem;
+    color: #000000;
+    font-size: 20px;
+}
+
+.image {
+    max-width: 400px;
+}
+
+.modelContainer {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap; /* Allows items to move to the next row */
+    justify-content: center; /* Centers items in the container */
+    gap: 40px;
+}
+
+.model {
+    flex: 1 1 calc(25% - 40px); /* Adjusts width dynamically, 4 per row */
+    max-width: 400px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .model {
+        flex: 1 1 calc(33.33% - 40px); /* 3 per row */
+    }
+}
+
+@media (max-width: 900px) {
+    .model {
+        flex: 1 1 calc(50% - 40px); /* 2 per row */
+    }
+}
+
+@media (max-width: 600px) {
+    .model {
+        flex: 1 1 calc(100% - 40px); /* 1 per row */
+    }
+}

@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tagline {
+    margin-top: 80px;
+    padding-bottom: 70px;
+    max-width: 600px;
+}
+
+.tagline p {
+    color: whitesmoke;
+}
+
+.tagline h1 {
+    color: whitesmoke;
+    font-size: 98px;
+}
+
+.pilot_image img {
+    max-width: 578px;
+    padding-bottom: 80px;
+}

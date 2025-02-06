@@ -1,0 +1,30 @@
+.about {
+    background: rgb(78, 39, 39);
+    background-image: url("/images/240z.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    height: 100vh;
+    padding: 100px;
+    text-align: center;
+}
+
+.about_tagline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about h1 {
+    color: whitesmoke;
+    font-size: 45px;
+    margin-top: 40px;
+}
+
+.about p {
+    margin-top: 40px;
+    font-size: 24px;
+    max-width: 650px;
+    color: whitesmoke;
+}

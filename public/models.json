@@ -1,0 +1,269 @@
+{
+    "models": [
+        {
+            "id": 1,
+            "name": "1983 TOYOTA Sprinter Trueno 1600GT APEX",
+            "specs": {
+                "engine": "1.6L 4A-GE I4",
+                "power": "130 BHP",
+                "asp": "Naturally Aspirated",
+                "drivetrain": "Front-Engine Rear-Wheel Drive",
+                "transmission": "5-Speed Manual",
+                "length": "4205 mm",
+                "width": "1675 mm",
+                "weight": "825 kg",
+                "height": "1275 mm"
+            },
+            "price": "90,000",
+            "images": [
+                "/images/cars/ae86-1.jpg",
+                "/images/cars/ae86-2.jpg",
+                "/images/cars/ae86-3.jpg",
+                "/images/cars/ae86-4.jpg"
+            ],
+            "link": "Z-T1-ae86.html"
+        },
+        {
+            "id": 2,
+            "name": "2021 TOYOTA GR86 RZ",
+            "specs": {
+                "engine": "2.4L FA24 H4",
+                "power": "232 BHP",
+                "asp": "Naturally Aspirated",
+                "drivetrain": "Front-Engine Rear-Wheel Drive",
+                "transmission": "6-Speed Manual",
+                "length": "4265 mm",
+                "weight": "1270 kg",
+                "height": "1310 mm"
+            },
+            "price": "35,500",
+            "images": [
+                "/images/cars/gr86-1.jpg",
+                "/images/cars/gr86-2.jpg",
+                "/images/cars/gr86-3.jpg",
+                "/images/cars/gr86-4.jpg"
+            ],
+            "link": "Z-T2-gr86.html"
+        },
+        {
+            "id": 3,
+            "name": "2018 TOYOTA Alphard Executive Lounge",
+            "specs": {
+                "engine": "3.5L 2GR-FKS V6",
+                "power": "296 BHP",
+                "asp": "Naturally Aspirated",
+                "drivetrain": "Front-Engine Front-Wheel Drive",
+                "transmission": "8-Speed Automatic",
+                "length": "4945 mm",
+                "weight": "1975 kg",
+                "height": "1935 mm"
+            },
+            "price": "75,000",
+            "images": [
+                "/images/cars/alphard-1.jpg",
+                "/images/cars/alphard-2.jpg",
+                "/images/cars/alphard-3.jpg",
+                "/images/cars/alphard-4.jpg"
+            ],
+            "link": "Z-T3-alphard.html"
+        },
+        {
+            "id": 4,
+            "name": "2009 TOYOTA Prius G",
+            "specs": {
+                "engine": "1.8L 2ZR-FXE I4 Hybrid",
+                "power": "134 BHP",
+                "asp": "Hybrid Electric",
+                "drivetrain": "Front-Engine Front-Wheel Drive",
+                "transmission": "CVT",
+                "length": "4480 mm",
+                "weight": "1370 kg",
+                "height": "1490 mm"
+            },
+            "price": "24,500",
+            "images": [
+                "/images/cars/prius-1.jpg",
+                "/images/cars/prius-2.jpg",
+                "/images/cars/prius-3.jpg",
+                "/images/cars/prius-4.jpg"
+            ],
+            "link": "Z-T4-prius.html"
+        },
+        {
+            "id": 5,
+            "name": "1990 NISSAN Skyline GT-R NISMO R32",
+            "specs": {
+                "engine": "2.6L RB26DETT I6",
+                "power": "276 BHP",
+                "asp": "Twin-Turbocharged",
+                "drivetrain": "Front-Engine All-Wheel Drive",
+                "transmission": "5-Speed Manual",
+                "length": "4545 mm",
+                "weight": "1430 kg",
+                "height": "1340 mm"
+            },
+            "price": "200,000",
+            "images": [
+                "/images/cars/r32-1.jpg",
+                "/images/cars/r32-2.jpg",
+                "/images/cars/r32-3.jpg",
+                "/images/cars/r32-4.jpg"
+            ],
+            "link": "Z-N1-r32.html"
+        },
+        {
+            "id": 6,
+            "name": "2017 NISSAN GT-R R35",
+            "specs": {
+                "engine": "3.8L VR38DETT V6",
+                "power": "565 BHP",
+                "asp": "Twin-Turbocharged",
+                "drivetrain": "Front-Engine All-Wheel Drive",
+                "transmission": "6-Speed Dual-Clutch",
+                "length": "4710 mm",
+                "weight": "1740 kg",
+                "height": "1370 mm"
+            },
+            "price": "100,000",
+            "images": [
+                "/images/cars/r35-1.jpg",
+                "/images/cars/r35-2.jpg",
+                "/images/cars/r35-3.jpg",
+                "/images/cars/r35-4.jpg"
+            ],
+            "link": "Z-N2-r35.html"
+        },
+        {
+            "id": 7,
+            "name": "2008 NISSAN Fairlady Z Z34",
+            "specs": {
+                "engine": "3.7L VQ37VHR V6",
+                "power": "332 BHP",
+                "asp": "Naturally Aspirated",
+                "drivetrain": "Front-Engine Rear-Wheel Drive",
+                "transmission": "6-Speed Manual",
+                "length": "4250 mm",
+                "weight": "1520 kg",
+                "height": "1315 mm"
+            },
+            "price": "500,000",
+            "images": [
+                "/images/cars/370z-1.jpg",
+                "/images/cars/370z-2.jpg",
+                "/images/cars/370z-3.jpg",
+                "/images/cars/370z-4.jpg"
+            ],
+            "link": "Z-N3-370z.html"
+        },
+        {
+            "id": 8,
+            "name": "2002 NISSAN Silvia Spec-R Aero S15",
+            "specs": {
+                "engine": "2.0L SR20DET I4",
+                "power": "247 BHP",
+                "asp": "Turbocharged",
+                "drivetrain": "Front-Engine Rear-Wheel Drive",
+                "transmission": "6-Speed Manual",
+                "length": "4445 mm",
+                "weight": "1240 kg",
+                "height": "1285 mm"
+            },
+            "price": "68,000",
+            "images": [
+                "/images/cars/s15-1.jpg",
+                "/images/cars/s15-2.jpg",
+                "/images/cars/s15-3.jpg",
+                "/images/cars/s15-4.jpg"
+            ],
+            "link": "Z-N4-s15.html"
+        },
+        {
+            "id": 9,
+            "name": "2002 HONDA NSX Type R",
+            "specs": {
+                "engine": "3.2L C32B V6",
+                "power": "290 BHP",
+                "asp": "Naturally Aspirated",
+                "drivetrain": "Mid-Engine Rear-Wheel Drive",
+                "transmission": "6-Speed Manual",
+                "length": "4430 mm",
+                "weight": "1270 kg",
+                "height": "1175 mm"
+            },
+            "price": "500,000",
+            "images": [
+                "/images/cars/nsx-1.jpg",
+                "/images/cars/nsx-2.jpg",
+                "/images/cars/nsx-3.jpg",
+                "/images/cars/nsx-4.jpg"
+            ],
+            "link": "Z-H1-nsx.html"
+        },
+        {
+            "id": 10,
+            "name": "2019 MAZDA3 X Burgundy Selection",
+            "specs": {
+                "engine": "2.0L SkyActiv-X I4",
+                "power": "178 BHP",
+                "asp": "Naturally Aspirated",
+                "drivetrain": "Front-Engine Front-Wheel Drive",
+                "transmission": "6-Speed Automatic",
+                "length": "4660 mm",
+                "weight": "1380 kg",
+                "height": "1440 mm"
+            },
+            "price": "37,000",
+            "images": [
+                "/images/cars/mazda3-1.jpg",
+                "/images/cars/mazda3-2.jpg",
+                "/images/cars/mazda3-3.jpg",
+                "/images/cars/mazda3-4.jpg"
+            ],
+            "link": "Z-M1-mazda3.html"
+        },
+        {
+            "id": 11,
+            "name": "1998 MITSUBISHI Lancer Evolution V GSR",
+            "specs": {
+                "engine": "2.0L 4G63T I4",
+                "power": "276 BHP",
+                "asp": "Turbocharged",
+                "drivetrain": "Front-Engine All-Wheel Drive",
+                "transmission": "5-Speed Manual",
+                "length": "4350 mm",
+                "weight": "1360 kg",
+                "height": "1415 mm"
+            },
+            "price": "73,000",
+            "images": [
+                "/images/cars/evo5-1.jpg",
+                "/images/cars/evo5-2.jpg",
+                "/images/cars/evo5-3.jpg",
+                "/images/cars/evo5-4.jpg"
+            ],
+            "link": "Z-M1-evo5.html"
+        },
+        {
+            "id": 12,
+            "name": "2018 SUBARU BRZ STI Sport",
+            "specs": {
+                "engine": "2.0L FA20 H4",
+                "power": "205 BHP",
+                "asp": "Naturally Aspirated",
+                "drivetrain": "Front-Engine Rear-Wheel Drive",
+                "transmission": "6-Speed Manual",
+                "length": "4240 mm",
+                "weight": "1250 kg",
+                "height": "1280 mm"
+            },
+            "price": "36,000",
+            "images": [
+                "/images/cars/brz-1.jpg",
+                "/images/cars/brz-2.jpg",
+                "/images/cars/brz-3.jpg",
+                "/images/cars/brz-4.jpg"
+            ],
+            "link": "Z-S1-brz.html"
+        }
+    ]
+}
