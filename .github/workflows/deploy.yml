@@ -3,7 +3,6 @@ name: Deploy
 on:
     push:
         branches:
-            - main
             - master
 
 jobs:
@@ -28,7 +27,7 @@ jobs:
               uses: actions/upload-artifact@v3
               with:
                   name: production-files
-                  path: ./build # use the correct build directory
+                  path: ./dist
 
     deploy:
         name: Deploy
@@ -41,11 +40,10 @@ jobs:
               uses: actions/download-artifact@v3
               with:
                   name: production-files
-                  path: ./dist # use the correct build directory
+                  path: ./dist
 
             - name: Deploy to GitHub Pages
               uses: peaceiris/actions-gh-pages@v3
               with:
                   github_token: ${{ secrets.GITHUB_TOKEN }}
-                  publish_dir: ./dist # or ./dist if that's your build folder
-                  publish_branch: master # deploy to the master branch
+                  publish_dir: ./dist
