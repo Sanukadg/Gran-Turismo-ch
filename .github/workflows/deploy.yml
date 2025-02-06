@@ -3,7 +3,7 @@ name: Deploy
 on:
     push:
         branches:
-            - main # Keep this to trigger when pushing to the main branch
+            - master # Keep this to trigger when pushing to the main branch
 
 jobs:
     build:
