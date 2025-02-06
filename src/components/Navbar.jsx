@@ -1,9 +1,10 @@
+import { Link } from "react-router";
 import CartPopup from "./CartPopup";
 
 const Navbar = ({ cartItems, setCartItems }) => {
     return (
         <div className="navbar">
-            <a href="/">
+            <Link to="/">
                 <div className="logo">
                     <img
                         src={`${import.meta.env.BASE_URL}/images/logo.png`}
@@ -11,28 +12,28 @@ const Navbar = ({ cartItems, setCartItems }) => {
                         alt="Logo"
                     />
                 </div>
-            </a>
+            </Link>
             <nav>
                 <ul>
                     <li>
-                        <a href="/" style={{ color: "white" }}>
+                        <Link to="/" style={{ color: "white" }}>
                             HOME
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="/models" style={{ color: "white" }}>
+                        <Link to="/models" style={{ color: "white" }}>
                             MODELS
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="/about" style={{ color: "white" }}>
+                        <Link to="/about" style={{ color: "white" }}>
                             ABOUT US
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="/account" style={{ color: "white" }}>
+                        <Link to="/account" style={{ color: "white" }}>
                             ACCOUNT
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </nav>
