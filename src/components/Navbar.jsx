@@ -5,7 +5,11 @@ const Navbar = ({ cartItems, setCartItems }) => {
         <div className="navbar">
             <a href="/">
                 <div className="logo">
-                    <img src="/images/logo.png" width="125px" alt="Logo" />
+                    <img
+                        src={`${import.meta.env.BASE_URL}/images/logo.png`}
+                        width="125px"
+                        alt="Logo"
+                    />
                 </div>
             </a>
             <nav>

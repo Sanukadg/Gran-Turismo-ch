@@ -19,7 +19,7 @@ export default function CartPopup({ cartItems, setCartItems }) {
     return (
         <div>
             <img
-                src="/images/cart.png"
+                src={`${import.meta.env.BASE_URL}/images/cart.png`}
                 width="30px"
                 height="30px"
                 className={styles.cart_icon}

@@ -2,7 +2,7 @@ import { Link } from "react-router";
 import Navbar from "../components/Navbar";
 import styles from "./home.module.css";
 
-export default function Home({ cartItems, setCartItems}) {
+export default function Home({ cartItems, setCartItems }) {
     return (
         <>
             <div className="container">
@@ -19,7 +19,10 @@ export default function Home({ cartItems, setCartItems}) {
                         </Link>
                     </div>
                     <div className={styles.pilot_image}>
-                        <img src="images/pilot.png" alt="" />
+                        <img
+                            src={`${import.meta.env.BASE_URL}/images/pilot.png`}
+                            alt=""
+                        />
                     </div>
                 </div>
             </div>

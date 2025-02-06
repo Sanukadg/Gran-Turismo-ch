@@ -23,7 +23,9 @@ function App() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch("/models.json"); // Fetching the properties data from the JSON file
+                const response = await fetch(
+                    import.meta.env.BASE_URL + "/models.json"
+                ); // Fetching the properties data from the JSON file
                 if (!response.ok) throw new Error("Failed to fetch JSON");
                 const json = await response.json();
                 setModels(json.models);
@@ -36,7 +38,7 @@ function App() {
 
     return (
         <div>
-            <Router>
+            <Router basename={import.meta.env.BASE_URL}>
                 <Routes>
                     <Route
                         path="/"

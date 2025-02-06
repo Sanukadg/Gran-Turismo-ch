@@ -13,7 +13,12 @@ const Footer = () => {
                     "subaru",
                 ].map((brand) => (
                     <div className={styles.brand_logo} key={brand}>
-                        <img src={`/images/brands/${brand}.png`} alt={brand} />
+                        <img
+                            src={`${
+                                import.meta.env.BASE_URL
+                            }/images/brands/${brand}.png`}
+                            alt={brand}
+                        />
                     </div>
                 ))}
             </div>
